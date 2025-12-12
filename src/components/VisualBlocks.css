@@ -1,0 +1,41 @@
+.parchment {
+ background-image: url('/assets/parchment.webp');
+ min-width: 350px;
+ max-width: 450px;
+ height: fit-content;
+ position: relative;
+ box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+ flex-direction: column;
+ align-items: left;
+ padding: 1em;
+ overflow-y: visible;
+ flex-shrink: 0;
+ flex: 0 0 auto;
+}
+.wrap > .parchment{
+  max-height: 90vh;
+
+  column-width: 350px;
+  column-gap: 1em;
+  width: max-content;
+  max-width: 100vh;
+}
+.wrap > .parchment > *{
+  font-size: .85em;
+}
+.wrap > .parchment > .action > p {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+.line{
+  background-color: #912d19;
+  width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+}
+.greater{
+  clip-path: polygon(0 0, 0 100%, 100% 50%);
+  height: 5px;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}

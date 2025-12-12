@@ -1,4 +1,5 @@
 import { useParams } from "react-router";
+import styles from "../styles.module.css"
 import Weapons from "./Weapons";
 import Armor from "./Armor";
 import Potions from "./Potions";
@@ -8,10 +9,9 @@ export default function Shop(){
 
   return (
     <div>
-      <h1>Hello from profile page!</h1>
-      <p>So, how are you?</p>
+      <ShopsNav />
       <hr />
-      <h2>Profile visited here:</h2>
+      <h2>Here are the wares:</h2>
       {name === "weapons" ? (
         <Weapons />
       ) : name === "armor" ? (
@@ -27,4 +27,12 @@ export default function Shop(){
 
 function Default(){
     return <p>Select a Shop!</p>
+}
+
+function ShopsNav(){
+    return (
+        <nav className={styles.ShopsNav}>
+            <h1>shoppies</h1>
+        </nav>
+    )
 }

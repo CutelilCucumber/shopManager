@@ -1,0 +1,1665 @@
+[
+  {
+    "id": "2b443c86-b948-4346-a5d2-a339945bfc60",
+    "name": "Iron Outfitter",
+    "shopKeeper": "Lorin Thornfield",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "ee7fea43-b891-41b9-8d75-be280a319267",
+    "name": "Iron Atelier",
+    "shopKeeper": "Cassian Riversong",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "c61159a7-3742-4350-9aeb-fe97593f48a0",
+    "name": "Moonlit Emporium",
+    "shopKeeper": "Mira Blackbriar",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "610843d9-2312-4738-92b5-17aac964cfb2",
+    "name": "Whispering Vault",
+    "shopKeeper": "Talvos Ashwind",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "99595399-d77d-4025-b805-5c1c06873950",
+    "name": "Storm Armory",
+    "shopKeeper": "Lorin Goldleaf",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "1c91d5d4-0102-45b0-8a34-47e1cae3de5c",
+    "name": "Starbound Bazaar",
+    "shopKeeper": "Velra Ironbound",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "07219107-c950-4c54-b911-78dfaa563dde",
+    "name": "Emerald Den",
+    "shopKeeper": "Cassian Stonefall",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "09ec3e63-886a-4430-a761-56394d8c5246",
+    "name": "Golden Workshop",
+    "shopKeeper": "Mira Ironbound",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "f734f651-b41f-459b-802e-b1d595342d9a",
+    "name": "Silent Emporium",
+    "shopKeeper": "Durn Riversong",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "51548105-ba7b-4294-b656-a16766cb9be3",
+    "name": "Golden Supply",
+    "shopKeeper": "Torren Goldleaf",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "c7068964-8f6a-47cc-8557-315c666cc543",
+    "name": "Obsidian Forge",
+    "shopKeeper": "Torren Goldleaf",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "91ffb832-3c98-4e2d-89a3-90ccb2feefed",
+    "name": "Whispering Forge",
+    "shopKeeper": "Cassian Riversong",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "a0462c9b-712c-49a7-abb0-67ddaea5a6db",
+    "name": "Golden Market",
+    "shopKeeper": "Velra Mossglass",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "754ae362-ccee-4d6e-9f85-ef5b300e799b",
+    "name": "Silver Workshop",
+    "shopKeeper": "Isolde Thornfield",
+    "type": [
+      "weapons",
+      "armor"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons",
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "bb83ce18-fde2-40c2-b795-46ed77cd0695",
+    "name": "Emerald Apothecary",
+    "shopKeeper": "Maeve Blackbriar",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "dddfd696-3a1c-4174-b35b-10a3123355fd",
+    "name": "Whispering Armory",
+    "shopKeeper": "Brom Frostmere",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "3fc4a857-7735-4ca0-acbf-11a3b927c2fd",
+    "name": "Whispering Den",
+    "shopKeeper": "Durn Ashwind",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "db537f5a-609f-4fa6-a498-86d0f9fb5a77",
+    "name": "Silent Forge",
+    "shopKeeper": "Torren Ironbound",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "18609d23-303e-4312-822f-eaf9e38a6171",
+    "name": "Obsidian Outfitter",
+    "shopKeeper": "Isolde Duskbreaker",
+    "type": [
+      "potion",
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "293d11bf-968a-40f6-be94-abf119c2fc31",
+    "name": "Silver Bazaar",
+    "shopKeeper": "Talvos Blackbriar",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "9645dc83-20d8-4f7a-8b06-37bcf7a0fd06",
+    "name": "Starbound Market",
+    "shopKeeper": "Mira Thornfield",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "05ba66cc-163c-4777-93f1-3dc31db4a246",
+    "name": "Silver Vault",
+    "shopKeeper": "Brom Stormholt",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "987aafd0-05f7-48fa-87ee-a7e0d35dc9f0",
+    "name": "Silent Armory",
+    "shopKeeper": "Fenn Goldleaf",
+    "type": [
+      "weapons",
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons",
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "cd09f4f2-d497-475a-b89c-d90614bc98ce",
+    "name": "Silver Sanctum",
+    "shopKeeper": "Brom Riversong",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "866bba02-9cec-4556-ba14-e44fbbbefddd",
+    "name": "Storm Outfitter",
+    "shopKeeper": "Cassian Blackbriar",
+    "type": [
+      "potion",
+      "armor"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "9fd13813-2b9b-4f73-b360-b1daebb66d79",
+    "name": "Silent Armory",
+    "shopKeeper": "Rendric Mossglass",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "2dc6a4b9-0dd3-481b-9911-f8ce3eb22076",
+    "name": "Obsidian Forge",
+    "shopKeeper": "Halden Duskbreaker",
+    "type": [
+      "weapons",
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons",
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "b6fb3696-af7d-48bc-80c2-2ea0951a53c0",
+    "name": "Silver Depot",
+    "shopKeeper": "Cassian Stonefall",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "4c1437c7-8b62-4f0e-b466-7e96c1b4d8f0",
+    "name": "Emerald Outfitter",
+    "shopKeeper": "Torren Duskbreaker",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "1884ae8d-98b8-458a-bd5a-bdfd22944bf1",
+    "name": "Arcane Curios",
+    "shopKeeper": "Talvos Stormholt",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "1374c7ce-b1ed-4aaa-87b6-3be1e931693d",
+    "name": "Moonlit Apothecary",
+    "shopKeeper": "Brom Oakrunner",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "bbfc8651-81f1-4238-a819-3e5fd8e52c6e",
+    "name": "Storm Curios",
+    "shopKeeper": "Talvos Frostmere",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "27037682-622f-4601-9041-19e558f65766",
+    "name": "Storm Outfitter",
+    "shopKeeper": "Halden Blackbriar",
+    "type": [
+      "magic implements",
+      "travel"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items",
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "e2b32b02-476f-470b-a5e8-1b49a018935c",
+    "name": "Golden Vault",
+    "shopKeeper": "Rendric Stonefall",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "ea80ae23-ec51-4b58-bbd5-f731a018a991",
+    "name": "Starbound Emporium",
+    "shopKeeper": "Durn Stonefall",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "f71106a7-a057-46b7-b5d7-1ea1a5696b0e",
+    "name": "Gilded Market",
+    "shopKeeper": "Isolde Stormholt",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "5b2fc0be-49b9-4ddd-9de0-c71e92b44c24",
+    "name": "Silver Sanctum",
+    "shopKeeper": "Brom Stormholt",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "b88f4878-9e0f-40ee-855b-fb6356a3e798",
+    "name": "Storm Bazaar",
+    "shopKeeper": "Lorin Ashwind",
+    "type": [
+      "weapons",
+      "travel"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons",
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "6d8d2c39-e2a3-406c-867f-f22e1732ed63",
+    "name": "Gilded Market",
+    "shopKeeper": "Isolde Ironbound",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "f15add41-b65f-42f9-84d6-e1960f3109a0",
+    "name": "Crimson Forge",
+    "shopKeeper": "Brom Goldleaf",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "37b746f5-6de6-4316-9855-a312cc7820c7",
+    "name": "Starbound Forge",
+    "shopKeeper": "Sera Ironbound",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "e3a9e656-e276-43a1-91c6-70423bd15cc1",
+    "name": "Bronze Den",
+    "shopKeeper": "Torren Oakrunner",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "16b5fe19-d338-4d93-9532-ca6b55ac8e32",
+    "name": "Silver Vault",
+    "shopKeeper": "Elira Ashwind",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "d89e28c8-8383-45b2-a926-949230d13678",
+    "name": "Gilded Bazaar",
+    "shopKeeper": "Fenn Riversong",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "ebb83ee8-3172-440f-b106-a69cd4a757e6",
+    "name": "Iron Bazaar",
+    "shopKeeper": "Rendric Mossglass",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "570b7732-10eb-4ab7-98d9-678c6d7dead3",
+    "name": "Crimson Curios",
+    "shopKeeper": "Lorin Ashwind",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "f94cb45d-2376-4cbf-b701-f44b7c89c8e6",
+    "name": "Azure Apothecary",
+    "shopKeeper": "Talvos Stormholt",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "2cc3d3a6-953a-444e-ac88-fddbc3dc81c5",
+    "name": "Emerald Market",
+    "shopKeeper": "Rendric Frostmere",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "204d371e-4777-40d1-b839-2d1276e4af6c",
+    "name": "Golden Sanctum",
+    "shopKeeper": "Isolde Mossglass",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "e3fcaed2-2e25-49e0-b800-4f5ef5f959d7",
+    "name": "Starbound Den",
+    "shopKeeper": "Sera Duskbreaker",
+    "type": [
+      "potion",
+      "travel"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "51dff769-a3ba-4f20-89a8-6e189287eb94",
+    "name": "Obsidian Outfitter",
+    "shopKeeper": "Torren Mossglass",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "1ef1a3e4-ee6a-415b-8219-8d16aa706407",
+    "name": "Silent Emporium",
+    "shopKeeper": "Durn Goldleaf",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "2416f6f0-146e-4a92-8367-e50b2a8cc89b",
+    "name": "Silent Vault",
+    "shopKeeper": "Talvos Stonefall",
+    "type": [
+      "potion",
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "e19324fb-aa96-405a-bc39-417c67e96122",
+    "name": "Moonlit Market",
+    "shopKeeper": "Maeve Goldleaf",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "4130514d-921c-446d-82de-fa72c905e509",
+    "name": "Storm Outfitter",
+    "shopKeeper": "Torren Stormholt",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "8752485d-6a44-419a-a299-89db1ca7050b",
+    "name": "Whispering Bazaar",
+    "shopKeeper": "Brom Thornfield",
+    "type": [
+      "general goods",
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits",
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "a9aa6905-6301-48a4-b70a-78021ed2283a",
+    "name": "Moonlit Supply",
+    "shopKeeper": "Halden Ashwind",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "06ba9618-334c-470b-892f-170020c9443d",
+    "name": "Obsidian Den",
+    "shopKeeper": "Elira Riversong",
+    "type": [
+      "travel",
+      "potion"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles",
+      "potion"
+    ]
+  },
+  {
+    "id": "f97273f8-fbf7-410c-8c6c-c939d2f6ad10",
+    "name": "Gilded Depot",
+    "shopKeeper": "Rendric Blackbriar",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "597a5910-fc06-40f0-a955-4f108866c783",
+    "name": "Whispering Supply",
+    "shopKeeper": "Elira Ashwind",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "af09b34e-194f-48d3-8649-45da6434677d",
+    "name": "Crimson Depot",
+    "shopKeeper": "Torren Riversong",
+    "type": [
+      "magic implements",
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items",
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "fe2e08c8-ffbd-4679-bc97-95e799c173fd",
+    "name": "Crimson Forge",
+    "shopKeeper": "Brom Ashwind",
+    "type": [
+      "potion",
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "1a7124f4-8347-447b-a0b4-91070f250684",
+    "name": "Obsidian Atelier",
+    "shopKeeper": "Maeve Blackbriar",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "68b39c3b-2b58-4126-8333-bec4f8e584ff",
+    "name": "Azure Emporium",
+    "shopKeeper": "Sera Goldleaf",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "7e50f233-2225-4255-b5b2-a35fa0367c91",
+    "name": "Arcane Curios",
+    "shopKeeper": "Torren Thornfield",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "67908cf4-aa59-4e27-a955-619ed5a44a53",
+    "name": "Storm Depot",
+    "shopKeeper": "Fenn Thornfield",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "ccd381c7-cedf-4b46-8ae8-34788381c58f",
+    "name": "Moonlit Depot",
+    "shopKeeper": "Rendric Goldleaf",
+    "type": [
+      "general goods",
+      "potion"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits",
+      "potion"
+    ]
+  },
+  {
+    "id": "d0f50210-23e3-41db-ac19-13d84ddffebb",
+    "name": "Golden Den",
+    "shopKeeper": "Mira Duskbreaker",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "6b7d427e-6da3-489f-9ab4-1442d9e6d976",
+    "name": "Storm Emporium",
+    "shopKeeper": "Brom Goldleaf",
+    "type": [
+      "armor",
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields",
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "3ca14141-f4de-4607-9b77-8745e9df8bd1",
+    "name": "Bronze Curios",
+    "shopKeeper": "Sera Riversong",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "c4458656-fd5d-490b-92fe-fda92b4a317d",
+    "name": "Starbound Workshop",
+    "shopKeeper": "Rendric Duskbreaker",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "065a6ba8-f9f7-4d9c-b201-9fd028db9fc4",
+    "name": "Storm Apothecary",
+    "shopKeeper": "Talvos Ironbound",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "e5229fdd-81db-4a9c-a3ff-0e9d3071e9a8",
+    "name": "Crimson Sanctum",
+    "shopKeeper": "Sera Mossglass",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "b647ceff-ac77-433d-8876-e9c58af10acd",
+    "name": "Obsidian Supply",
+    "shopKeeper": "Halden Oakrunner",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "8b0d8ccc-de30-4808-9acf-8d855d022d99",
+    "name": "Gilded Vault",
+    "shopKeeper": "Torren Duskbreaker",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "dbd68746-d36f-44bd-be89-6c0694b7cf43",
+    "name": "Moonlit Sanctum",
+    "shopKeeper": "Halden Thornfield",
+    "type": [
+      "weapons",
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons",
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "e85c68b8-fe37-4899-a8a9-0a983e265039",
+    "name": "Silver Apothecary",
+    "shopKeeper": "Lorin Oakrunner",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "4ec692f1-58bd-4c0e-9c36-b139565f9007",
+    "name": "Moonlit Depot",
+    "shopKeeper": "Lorin Duskbreaker",
+    "type": [
+      "armor",
+      "travel"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields",
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "2bc38c18-52af-45aa-9b29-3bc0c84c2b58",
+    "name": "Silent Den",
+    "shopKeeper": "Durn Goldleaf",
+    "type": [
+      "travel",
+      "potion"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles",
+      "potion"
+    ]
+  },
+  {
+    "id": "2990e177-4eaf-4d1a-90e3-74c8d9884665",
+    "name": "Azure Sanctum",
+    "shopKeeper": "Brom Thornfield",
+    "type": [
+      "potion",
+      "travel"
+    ],
+    "catalogueIndex": [
+      "potion",
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "f7b56513-d703-4229-955b-22b6cda0b8a7",
+    "name": "Moonlit Market",
+    "shopKeeper": "Sera Blackbriar",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "4ab7a05f-d830-4219-a7a5-e6efe97bb36c",
+    "name": "Storm Bazaar",
+    "shopKeeper": "Maeve Goldleaf",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "b5e47b9f-c08f-4168-96e5-3fae3fb86a89",
+    "name": "Starbound Sanctum",
+    "shopKeeper": "Isolde Thornfield",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "3842bee0-01ab-470b-804e-f3bdd8361dc5",
+    "name": "Azure Emporium",
+    "shopKeeper": "Brom Duskbreaker",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "f5794a96-71ef-41da-89de-fdf7dd796112",
+    "name": "Azure Vault",
+    "shopKeeper": "Elira Goldleaf",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "90a60afe-636d-46a6-8cb3-b457719fad1f",
+    "name": "Azure Outfitter",
+    "shopKeeper": "Sera Mossglass",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "bcbe006c-d103-4883-bd19-e76773aa5982",
+    "name": "Silent Armory",
+    "shopKeeper": "Brom Riversong",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "74517937-30ca-4aed-adc8-2bb3c2140365",
+    "name": "Arcane Depot",
+    "shopKeeper": "Halden Oakrunner",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "ad2470f9-85aa-4676-a5be-48d01b7f0e85",
+    "name": "Emerald Bazaar",
+    "shopKeeper": "Lorin Frostmere",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "f698f89d-ee8b-4216-8f0d-94659f3760a9",
+    "name": "Starbound Workshop",
+    "shopKeeper": "Lorin Riversong",
+    "type": [
+      "travel",
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles",
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "f36eb367-c21c-469d-b2fd-9637603ed97d",
+    "name": "Moonlit Outfitter",
+    "shopKeeper": "Halden Thornfield",
+    "type": [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "weapon",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ]
+  },
+  {
+    "id": "3fc032da-13cf-496d-8069-af1ba4832270",
+    "name": "Whispering Vault",
+    "shopKeeper": "Talvos Frostmere",
+    "type": [
+      "magic implements"
+    ],
+    "catalogueIndex": [
+      "arcane-foci",
+      "druidic-foci",
+      "holy-symbols",
+      "staff",
+      "wand",
+      "rod",
+      "ring",
+      "scroll",
+      "wondrous-items"
+    ]
+  },
+  {
+    "id": "3d4f1bf3-5591-4d28-8732-f6116163f2c0",
+    "name": "Arcane Market",
+    "shopKeeper": "Halden Duskbreaker",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  },
+  {
+    "id": "abc44216-4f9f-4010-b397-54be08b50a10",
+    "name": "Bronze Sanctum",
+    "shopKeeper": "Maeve Oakrunner",
+    "type": [
+      "artisan & tools"
+    ],
+    "catalogueIndex": [
+      "artisans-tools",
+      "tools",
+      "other-tools",
+      "gaming-sets",
+      "musical-instruments"
+    ]
+  },
+  {
+    "id": "58766d2c-8e93-4377-bf39-9eaeb3f924ba",
+    "name": "Arcane Workshop",
+    "shopKeeper": "Cassian Mossglass",
+    "type": [
+      "travel"
+    ],
+    "catalogueIndex": [
+      "land-vehicles",
+      "mounts-and-other-animals",
+      "mounts-and-vehicles",
+      "tack-harness-and-drawn-vehicles",
+      "waterborne-vehicles"
+    ]
+  },
+  {
+    "id": "a3700c75-98f6-4ab2-9b41-a9108cde2981",
+    "name": "Gilded Outfitter",
+    "shopKeeper": "Velra Mossglass",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "91343019-f2ec-4392-a2c1-9b5f3c54f1c1",
+    "name": "Emerald Bazaar",
+    "shopKeeper": "Durn Riversong",
+    "type": [
+      "general goods"
+    ],
+    "catalogueIndex": [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ]
+  },
+  {
+    "id": "1f29ad03-e7e3-4178-b484-dca8a2829006",
+    "name": "Storm Outfitter",
+    "shopKeeper": "Durn Ironbound",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "8bba9908-a935-4a30-9623-e9b1cc2daff8",
+    "name": "Bronze Forge",
+    "shopKeeper": "Lorin Frostmere",
+    "type": [
+      "potion"
+    ],
+    "catalogueIndex": [
+      "potion"
+    ]
+  },
+  {
+    "id": "ee013f57-f383-4f23-aed9-99209184838b",
+    "name": "Crimson Den",
+    "shopKeeper": "Talvos Blackbriar",
+    "type": [
+      "armor"
+    ],
+    "catalogueIndex": [
+      "armor",
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ]
+  }
+]
