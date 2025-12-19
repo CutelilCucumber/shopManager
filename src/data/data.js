@@ -1,67 +1,3 @@
-export const defaultTown = {
-    id: crypto.randomUUID(),
-    name: getRandomTown(null),
-    size: 0,
-    magicRarity: 0,
-    PcLevel: 0,
-    shopList: [{
-    id: "610843d9-2312-4738-92b5-17aac964cfb2",
-    name: "Whispering Vault",
-    shopKeeper: "Talvos Ashwind",
-    type: [
-      "general goods"
-    ],
-    catalogueIndex: [
-      "adventuring-gear",
-      "standard-gear",
-      "equipment-packs",
-      "kits"
-    ]
-  },
-  {
-    id: "2b443c86-b948-4346-a5d2-a339945bfc60",
-    name: "Iron Outfitter",
-    shopKeeper: "Lorin Thornfield",
-    type: [
-      "weapons"
-    ],
-    "catalogueIndex": [
-      "martial-weapons",
-      "martial-melee-weapons",
-      "martial-ranged-weapons",
-      "melee-weapons",
-      "ranged-weapons",
-      "weapon",
-      "simple-weapons",
-      "simple-melee-weapons",
-      "simple-ranged-weapons"
-    ]
-  },
-  {
-    id: "ee7fea43-b891-41b9-8d75-be280a319267",
-    name: "Iron Atelier",
-    shopKeeper: "Cassian Riversong",
-    type: [
-      "armor"
-    ],
-    catalogueIndex: [
-      "armor",
-      "light-armor",
-      "medium-armor",
-      "heavy-armor",
-      "shields"
-    ]
-  },]
-}
-
-export function getRandomTown(townList){
-  let randChoice = townNames[Math.floor(Math.random()*townNames.length)]
-  if (!townList) return randChoice;
-  while (townList.includes(randChoice)) {
-    randChoice = townNames[Math.floor(Math.random()*townNames.length)]
-  }
-  return randChoice;
-}
 
 const townNames = [
   "Ashbarrow",
@@ -211,3 +147,86 @@ const shopTypes = [
     catalogueIndex: ["wondrous-items"]
   }
 ]
+
+export const defaultTowns = [{
+    id: crypto.randomUUID(),
+    name: getRandomTown(null),
+    size: 0,
+    magicRarity: 0,
+    PcLevel: 0,
+    shopList: [{
+    id: "610843d9-2312-4738-92b5-17aac964cfb2",
+    name: "Whispering Vault",
+    shopKeeper: "Talvos Ashwind",
+    type: [
+      "general goods"
+    ],
+    catalogueIndex: [
+      "adventuring-gear",
+      "standard-gear",
+      "equipment-packs",
+      "kits"
+    ],
+    goods: [
+      "/api/2014/equipment/abacus",
+      "/api/2014/equipment/grappling-hook",
+      "/api/2014/equipment/holy-water-flask",
+      "/api/2014/equipment/lamp",
+      "/api/2014/equipment/piton",
+      "/api/2014/equipment/shovel",
+      "/api/2014/equipment/small-knife",
+    ]
+  },
+  {
+    id: "2b443c86-b948-4346-a5d2-a339945bfc60",
+    name: "Iron Outfitter",
+    shopKeeper: "Lorin Thornfield",
+    type: [
+      "weapons"
+    ],
+    "catalogueIndex": [
+      "martial-weapons",
+      "martial-melee-weapons",
+      "martial-ranged-weapons",
+      "melee-weapons",
+      "ranged-weapons",
+      "simple-weapons",
+      "simple-melee-weapons",
+      "simple-ranged-weapons"
+    ],
+    goods: []
+  },
+  {
+    id: "ee7fea43-b891-41b9-8d75-be280a319267",
+    name: "Iron Atelier",
+    shopKeeper: "Cassian Riversong",
+    type: [
+      "armor"
+    ],
+    catalogueIndex: [
+      "light-armor",
+      "medium-armor",
+      "heavy-armor",
+      "shields"
+    ],
+    goods: []
+  },]
+},
+{
+    id: crypto.randomUUID(),
+    name: 'Emptyville',
+    size: 0,
+    magicRarity: 0,
+    PcLevel: 0,
+    shopList: []
+}
+]
+
+export function getRandomTown(townList){
+  let randChoice = townNames[Math.floor(Math.random()*townNames.length)]
+  if (!townList) return randChoice;
+  while (townList.includes(randChoice)) {
+    randChoice = townNames[Math.floor(Math.random()*townNames.length)]
+  }
+  return randChoice;
+}
