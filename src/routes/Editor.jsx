@@ -2,7 +2,7 @@ import { Link, useOutletContext } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 
 export default function Editor() {
-const {worldData, setWorldData, cart, setCart} = useOutletContext();
+const {worldData, setWorldData, cart, addToCart, incrementQuantity} = useOutletContext();
 
   return (
     <div>

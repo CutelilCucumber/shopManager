@@ -11,6 +11,7 @@
  overflow-y: visible;
  flex-shrink: 0;
  flex: 0 0 auto;
+ margin-top: 21px;
 }
 .wrap > .parchment{
   max-height: 90vh;

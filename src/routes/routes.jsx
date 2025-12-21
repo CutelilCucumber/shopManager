@@ -19,9 +19,8 @@ const routes = [
         element: <Shop />
       },
       {
-        path: "shop/cityId",
+        path: "shop/:cityId",
         element: <Shop />
-        
       },
       {
         path: "cart",

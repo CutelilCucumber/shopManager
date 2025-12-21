@@ -175,6 +175,7 @@ export const defaultTowns = [{
       "/api/2014/equipment/piton",
       "/api/2014/equipment/shovel",
       "/api/2014/equipment/small-knife",
+      "/api/2014/magic-items/bag-of-holding",
     ]
   },
   {

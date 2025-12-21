@@ -2,20 +2,23 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles.module.css";
 
-export function ShopDrop({shopList, setSelectedShop}){
+export function ShopDrop({cityName, shopList, changeShop}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
         setIsOpen(!isOpen)
     }
 
-    if (!shopList || shopList.length===0) return (
-        <h4>No shops available!</h4>
+    if (!cityName) return (
+        <h4>Please select a city!</h4>
+    )
+    if (shopList.length===0) return (
+        <h4>No shops in {cityName}!</h4>
     )
     return(
         <div>
             <h4 tabIndex={0} onClick={() => toggleDrop()}>
-                Available Shops
+                Shops in {cityName}
                 <img src={isOpen ? "/assets/buttons/arrow-up.svg" : "/assets/buttons/arrow-down.svg"} />
             </h4>
             {isOpen ? (
@@ -23,7 +26,7 @@ export function ShopDrop({shopList, setSelectedShop}){
                     {shopList.map(shop =>{
                         return (
                             <li key={shop.id}>
-                                <p onClick={() => setSelectedShop(shop)}>{shop.name}</p>
+                                <p onClick={() => changeShop(shop)}>{shop.name}</p>
                             </li>
                         )
                     })}

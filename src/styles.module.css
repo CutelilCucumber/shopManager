@@ -8,3 +8,33 @@
 .NavBar > * > h2{
     margin: 0;
 }
+.itemEntry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopContainer {
+    display: flex;
+    gap: 1em;
+}
+.drops {
+    min-width: fit-content;
+}
+.selectable {
+    color: blue;
+}
+.selectable:hover {
+    cursor: pointer;
+    color: aqua;
+}
+.cartNum {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    font-size: 15px;
+    background-color: red;
+    border: solid red 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 2px;
+}
