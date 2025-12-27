@@ -19,7 +19,7 @@ const routes = [
         element: <Shop />
       },
       {
-        path: "shop/:cityId",
+        path: "shop/:shopId",
         element: <Shop />
       },
       {

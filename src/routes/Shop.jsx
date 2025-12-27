@@ -1,8 +1,6 @@
 import { useParams, useOutletContext } from "react-router";
 import { useState, useEffect } from 'react'
 import { Parchment, Line } from "../components/VisualBlocks";
-import NavBar from "../components/NavBar";
-import {ShopDrop, CityDrop} from "../components/Dropdowns";
 import styles from "../styles.module.css";
 
 export default function Shop(){
@@ -13,18 +11,16 @@ export default function Shop(){
       cart,
       addToCart,
       incrementQuantity} = useOutletContext();
-    const {cityId} = useParams();
 
-    const [selectedShop, setSelectedShop] = useState(null);
+    const {shopId} = useParams();
+
     const [displayItem, setDisplayItem] = useState(null);
 
-    const changeShop = (shop) => {
-      setSelectedShop(shop);
-      setDisplayItem(null);
-    }
-
-    const currCity = cityId ? worldData.find(city => city.id === cityId) : null;
-    const cached = selectedShop ? catalogCache[selectedShop.id] : null;
+    const selectedShop = shopId ? worldData.
+      flatMap(city => city.shopList)
+      .find(shop => shop.id ===shopId) : null;
+    
+    const cached = shopId ? catalogCache[shopId] : null;
     useEffect(() => {
       if (!selectedShop || cached) return;
 
@@ -48,12 +44,7 @@ export default function Shop(){
 
   return (
     <div className={styles.shopContainer}>
-      <div className={styles.drops}>
-        <CityDrop cityList={worldData}/>
-        <ShopDrop cityName={currCity ? (currCity.name) : (null)}
-          shopList={currCity ? (currCity.shopList) : (null)} 
-          changeShop={changeShop}/>
-      </div>
+      
       {selectedShop && cached ? (
         <>
           <Parchment>
@@ -80,7 +71,7 @@ function Catalog({itemList, setDisplayItem, addToCart}){
     <ul>
     {itemList.map(item => {
       return (
-        <div className={styles.itemEntry} onClick={() => setDisplayItem(item)} key={item.name}>
+        <div className={[styles.itemEntry, styles.selectable].join(' ')} onClick={() => setDisplayItem(item)} key={item.name}>
           <li>{item.name}</li>
           {item.cost !== undefined ? (<p>{item.cost.quantity}{item.cost.unit}</p>) : (<p>No Pricetag</p>)}
           <img src="/assets/buttons/add.svg" onClick={() => addToCart(item)}/>

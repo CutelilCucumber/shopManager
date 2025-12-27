@@ -2,7 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles.module.css";
 
-export function ShopDrop({cityName, shopList, changeShop}){
+export default function DropNav({worldData}){
+    const [currCity, setCurrCity] = useState(null)
+
+    return (
+        <div className={styles.drops}>
+              <h3>Navigation</h3>
+              <CityDrop cityList={worldData} setCurrCity={setCurrCity}/>
+              <ShopDrop cityName={currCity ? (currCity.name) : (null)}
+                shopList={currCity ? (currCity.shopList) : (null)}/>
+            </div>
+    )
+}
+
+function ShopDrop({cityName, shopList}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
@@ -17,7 +30,8 @@ export function ShopDrop({cityName, shopList, changeShop}){
     )
     return(
         <div>
-            <h4 tabIndex={0} onClick={() => toggleDrop()}>
+            <h4 tabIndex={0} className={styles.selectable}
+                onClick={() => toggleDrop()}>
                 Shops in {cityName}
                 <img src={isOpen ? "/assets/buttons/arrow-up.svg" : "/assets/buttons/arrow-down.svg"} />
             </h4>
@@ -26,7 +40,7 @@ export function ShopDrop({cityName, shopList, changeShop}){
                     {shopList.map(shop =>{
                         return (
                             <li key={shop.id}>
-                                <p onClick={() => changeShop(shop)}>{shop.name}</p>
+                                <Link className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
                             </li>
                         )
                     })}
@@ -36,7 +50,7 @@ export function ShopDrop({cityName, shopList, changeShop}){
     )
 
 }
-export function CityDrop({cityList}){
+function CityDrop({cityList, setCurrCity}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
@@ -48,17 +62,17 @@ export function CityDrop({cityList}){
     )
     return(
         <div>
-            <h4 tabIndex={0} onClick={() => toggleDrop()}>
+            <h4 tabIndex={0} onClick={() => toggleDrop()}
+                className={styles.selectable}>
                 Available Cities
                 <img src={isOpen ? "/assets/buttons/arrow-up.svg" : "/assets/buttons/arrow-down.svg"} />
             </h4>
             {isOpen ? (
                 <ul>
                     {cityList.map(city =>{
-                        const linkAddress = "/shop/"+city.id;
                         return (
                             <li key={city.id}>
-                                <Link to={linkAddress}>{city.name}</Link>
+                                <p className={styles.selectable} onClick={() => setCurrCity(city)}>{city.name}</p>
                             </li>
                         )
                     })}

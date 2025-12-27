@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import { defaultTowns } from './data/data';
 import { useState } from "react";
 import NavBar from "./components/NavBar";
+import DropNav from "./components/Dropdowns";
+import styles from "./styles.module.css";
 
 export default function RootLayout() {
   const [worldData, setWorldData] = useState(defaultTowns);
@@ -52,20 +54,21 @@ export default function RootLayout() {
 
   return (
     <>
-      <h1>Market Manager</h1>
       <NavBar cartQuant={cart.length}/>
-
-      <Outlet context={{
-        worldData,
-        setWorldData,
-        catalogCache, 
-        setCatalogCache,
-        cart,
-        addToCart,
-        incrementQuantity,
-        decrementQuantity,
-        removeFromCart
-      }} />
+      <div className={styles.content}>
+        <DropNav worldData={worldData}/>
+        <Outlet context={{
+          worldData,
+          setWorldData,
+          catalogCache, 
+          setCatalogCache,
+          cart,
+          addToCart,
+          incrementQuantity,
+          decrementQuantity,
+          removeFromCart
+        }} />
+      </div>
     </>
   );
 }

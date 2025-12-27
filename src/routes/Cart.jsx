@@ -1,6 +1,7 @@
 import { useOutletContext } from "react-router-dom";
 import { Parchment, Line } from "../components/VisualBlocks";
 import NavBar from "../components/NavBar"
+import styles from "../styles.module.css";
 
 
 export default function Cart(){
@@ -13,7 +14,7 @@ export default function Cart(){
                     <h2>Your cart:</h2>
                     {cart.map(item => {
                        return (
-                         <div className="itemEntry" key={item.name}>
+                         <div className={styles.itemEntry} key={item.name}>
                            <p>{item.name}</p>
                            <p>{item.price*item.quantity} {item.priceUnit}</p>
                            <p>{item.quantity}</p>

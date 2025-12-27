@@ -26,10 +26,18 @@ body{
   background-image: url('/assets/marketBg.webp');
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+#root {
+  height: 100%;
 }
 h1 {
   font-family: 'MrEaves', Times;
 }
 h2 {
   font-family: 'Scaly';
+}
+p {
+  margin: 0;
 }
