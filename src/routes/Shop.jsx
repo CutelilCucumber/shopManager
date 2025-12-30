@@ -1,4 +1,4 @@
-import { useParams, useOutletContext } from "react-router";
+import { useParams, useOutletContext, Link } from "react-router";
 import { useState, useEffect } from 'react'
 import { Parchment, Line } from "../components/VisualBlocks";
 import styles from "../styles.module.css";
@@ -10,7 +10,8 @@ export default function Shop(){
       setCatalogCache,
       cart,
       addToCart,
-      incrementQuantity} = useOutletContext();
+      incrementQuantity,
+      recentShops} = useOutletContext();
 
     const {shopId} = useParams();
 
@@ -55,7 +56,7 @@ export default function Shop(){
           {displayItem ? (<Display displayItem={displayItem}/>) : ("")}
         </>
       ) : (
-        <Default />
+        <Default recentShops={recentShops} />
       )}
     </div>
   );
@@ -64,7 +65,7 @@ export default function Shop(){
 function Catalog({itemList, setDisplayItem, addToCart}){
 
 
-
+0
   return (
     <>
     <Line size="greater"/>
@@ -73,7 +74,7 @@ function Catalog({itemList, setDisplayItem, addToCart}){
       return (
         <div className={[styles.itemEntry, styles.selectable].join(' ')} onClick={() => setDisplayItem(item)} key={item.name}>
           <li>{item.name}</li>
-          {item.cost !== undefined ? (<p>{item.cost.quantity}{item.cost.unit}</p>) : (<p>No Pricetag</p>)}
+          {item.cost !== undefined ? (<p className={styles.price}>{item.cost.quantity}{item.cost.unit}</p>) : (<p className={styles.price}>No Pricetag</p>)}
           <img src="/assets/buttons/add.svg" onClick={() => addToCart(item)}/>
         </div>
       )
@@ -102,6 +103,24 @@ function Display({displayItem}){
   )
 }
 
-function Default(){
-    return <p>Select a shop to spend that hard earned gold!</p>
+function Default({recentShops}){
+    return (
+      <div>
+        <h2>Select a shop to spend that hard earned gold!</h2>
+        {recentShops.length !== 0 ? (
+          <>
+          <h4>Recently visited shops:</h4>
+          <ul>
+              {recentShops.map(shop =>{
+                  return (
+                      <li key={shop.id}>
+                          <Link className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
+                      </li>
+                  )
+              })}
+          </ul>
+          </>
+          ) : ("")}
+      </div>
+    )
 }

@@ -8,7 +8,7 @@ export default function Cart(){
     const {worldData, setWorldData, cart, addToCart, incrementQuantity, decrementQuantity, removeFromCart} = useOutletContext();
 
     return (
-        <div>
+        <div className={styles.shopContainer}>
             {cart.length === 0 ? (<h2>Your cart is empty. Start shopping!</h2>) : (
                 <Parchment >
                     <h2>Your cart:</h2>
@@ -16,11 +16,11 @@ export default function Cart(){
                        return (
                          <div className={styles.itemEntry} key={item.name}>
                            <p>{item.name}</p>
-                           <p>{item.price*item.quantity} {item.priceUnit}</p>
+                           <p className={styles.price}>{item.price*item.quantity} {item.priceUnit}</p>
+                            <img className={styles.selectable} src="/assets/buttons/arrow-down.svg" onClick={() => decrementQuantity(item.name)}/>
                            <p>{item.quantity}</p>
-                           <img src="/assets/buttons/arrow-up.svg" onClick={() => incrementQuantity(item.name)}/>
-                            <img src="/assets/buttons/arrow-down.svg" onClick={() => decrementQuantity(item.name)}/>
-                            <img src="/assets/buttons/delete.svg" onClick={() => removeFromCart(item.name)}/>
+                           <img className={styles.selectable} src="/assets/buttons/arrow-up.svg" onClick={() => incrementQuantity(item.name)}/>
+                            <img className={styles.selectable} src="/assets/buttons/delete.svg" onClick={() => removeFromCart(item.name)}/>
                          </div>
                        )
                      })}

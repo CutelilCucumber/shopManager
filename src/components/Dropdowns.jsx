@@ -2,20 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles.module.css";
 
-export default function DropNav({worldData}){
+export default function DropNav({worldData, addRecentShop}){
     const [currCity, setCurrCity] = useState(null)
 
     return (
         <div className={styles.drops}>
               <h3>Navigation</h3>
               <CityDrop cityList={worldData} setCurrCity={setCurrCity}/>
-              <ShopDrop cityName={currCity ? (currCity.name) : (null)}
+              <ShopDrop addRecentShop={addRecentShop} cityName={currCity ? (currCity.name) : (null)}
                 shopList={currCity ? (currCity.shopList) : (null)}/>
             </div>
     )
 }
 
-function ShopDrop({cityName, shopList}){
+function ShopDrop({cityName, shopList, addRecentShop}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
@@ -40,7 +40,7 @@ function ShopDrop({cityName, shopList}){
                     {shopList.map(shop =>{
                         return (
                             <li key={shop.id}>
-                                <Link className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
+                                <Link onClick={() => addRecentShop(shop)} className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
                             </li>
                         )
                     })}

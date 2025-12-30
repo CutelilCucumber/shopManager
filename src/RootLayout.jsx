@@ -10,7 +10,18 @@ export default function RootLayout() {
   const [catalogCache, setCatalogCache] = useState({});
 
   const [cart, setCart] = useState([]);
-  
+  const [recentShops, setRecentShops] = useState([]);
+
+  const addRecentShop = (newShop) => {
+    let tempShops = structuredClone(recentShops)
+    let shopIndex = tempShops.findIndex(shop => shop.id === newShop.id);
+    if (shopIndex !== -1){
+      tempShops.splice(shopIndex, 1)
+    }
+    tempShops.unshift(newShop)
+    console.log("recent shops:", tempShops)
+    setRecentShops(tempShops)
+  }
 
   const addToCart = (item) => {
     if (incrementQuantity(item.name)) return;
@@ -54,9 +65,9 @@ export default function RootLayout() {
 
   return (
     <>
-      <NavBar cartQuant={cart.length}/>
+      <NavBar cartQuant={getCartQuant(cart)}/>
       <div className={styles.content}>
-        <DropNav worldData={worldData}/>
+        <DropNav worldData={worldData} addRecentShop={addRecentShop}/>
         <Outlet context={{
           worldData,
           setWorldData,
@@ -66,9 +77,18 @@ export default function RootLayout() {
           addToCart,
           incrementQuantity,
           decrementQuantity,
-          removeFromCart
+          removeFromCart,
+          recentShops
         }} />
       </div>
     </>
   );
+}
+
+function getCartQuant(cart){
+let total = 0
+  for(let i = 0; i < cart.length; i++){
+    total += cart[i].quantity;
+  }
+return total;
 }
