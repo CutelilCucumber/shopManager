@@ -2,20 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles.module.css";
 
-export default function DropNav({worldData, addRecentShop}){
+export default function DropNav({worldData, addRecentShop, isEditing}){
     const [currCity, setCurrCity] = useState(null)
 
     return (
         <div className={styles.drops}>
               <h3>Navigation</h3>
-              <CityDrop cityList={worldData} setCurrCity={setCurrCity}/>
+              <CityDrop cityList={worldData} setCurrCity={setCurrCity} isEditing={isEditing}/>
               <ShopDrop addRecentShop={addRecentShop} cityName={currCity ? (currCity.name) : (null)}
-                shopList={currCity ? (currCity.shopList) : (null)}/>
+                shopList={currCity ? (currCity.shopList) : (null)} isEditing={isEditing}/>
             </div>
     )
 }
 
-function ShopDrop({cityName, shopList, addRecentShop}){
+function ShopDrop({cityName, shopList, addRecentShop, isEditing}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
@@ -36,21 +36,33 @@ function ShopDrop({cityName, shopList, addRecentShop}){
                 <img src={isOpen ? "/assets/buttons/arrow-up.svg" : "/assets/buttons/arrow-down.svg"} />
             </h4>
             {isOpen ? (
-                <ul>
-                    {shopList.map(shop =>{
-                        return (
-                            <li key={shop.id}>
-                                <Link onClick={() => addRecentShop(shop)} className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
-                            </li>
-                        )
-                    })}
-                </ul>
+                <div>
+                    {shopList.map(shop =>
+                            <div className={styles.listItem} key={shop.id}>
+                                {isEditing ? (
+                                    <>
+                                        <Link onClick={() => addRecentShop(shop)} className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
+                                        <img src="/assets/buttons/delete.svg"/>
+                                    </>
+                                ) : (
+                                    <Link onClick={() => addRecentShop(shop)} className={styles.selectable} replace to={"/shop/"+shop.id}>{shop.name}</Link>
+                                    )}
+
+                            </div>
+                        )}
+                    {isEditing ? (
+                                    <div className={styles.listItem}>
+                                        <p>Add Shop</p>
+                                        <img src="/assets/buttons/add.svg"/>
+                                    </div>
+                                ) : ("")}
+                </div>
                 ) : ("")}
         </div>
     )
 
 }
-function CityDrop({cityList, setCurrCity}){
+function CityDrop({cityList, setCurrCity, isEditing}){
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleDrop = () => {
@@ -68,15 +80,27 @@ function CityDrop({cityList, setCurrCity}){
                 <img src={isOpen ? "/assets/buttons/arrow-up.svg" : "/assets/buttons/arrow-down.svg"} />
             </h4>
             {isOpen ? (
-                <ul>
-                    {cityList.map(city =>{
-                        return (
-                            <li key={city.id}>
-                                <p className={styles.selectable} onClick={() => setCurrCity(city)}>{city.name}</p>
-                            </li>
-                        )
-                    })}
-                </ul>
+                <div>
+                    {cityList.map(city =>
+                            <div className={styles.listItem} key={city.id}>
+                                {isEditing ? (
+                                    <>
+                                        <p className={styles.selectable} onClick={() => setCurrCity(city)}>{city.name}</p>
+                                        <img src="/assets/buttons/delete.svg"/>
+                                    </>
+                                ) : (
+                                    <p className={styles.selectable} onClick={() => setCurrCity(city)}>{city.name}</p>
+                                )}
+                                
+                            </div>
+                        )}
+                        {isEditing ? (
+                                    <div className={styles.listItem}>
+                                        <p>Add City</p>
+                                        <img src="/assets/buttons/add.svg"/>
+                                    </div>
+                                ) : ("")}
+                </div>
                 ) : ("")}
         </div>
     )

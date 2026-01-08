@@ -9,8 +9,15 @@ export default function RootLayout() {
   const [worldData, setWorldData] = useState(defaultTowns);
   const [catalogCache, setCatalogCache] = useState({});
 
+  const [isEditing, setIsEditing] = useState(false);
+
+
   const [cart, setCart] = useState([]);
   const [recentShops, setRecentShops] = useState([]);
+
+  const toggleEditing = () => {
+    setIsEditing(!isEditing)
+  }
 
   const addRecentShop = (newShop) => {
     let tempShops = structuredClone(recentShops)
@@ -19,7 +26,6 @@ export default function RootLayout() {
       tempShops.splice(shopIndex, 1)
     }
     tempShops.unshift(newShop)
-    console.log("recent shops:", tempShops)
     setRecentShops(tempShops)
   }
 
@@ -67,7 +73,7 @@ export default function RootLayout() {
     <>
       <NavBar cartQuant={getCartQuant(cart)}/>
       <div className={styles.content}>
-        <DropNav worldData={worldData} addRecentShop={addRecentShop}/>
+        <DropNav worldData={worldData} addRecentShop={addRecentShop} isEditing={isEditing}/>
         <Outlet context={{
           worldData,
           setWorldData,
@@ -78,7 +84,8 @@ export default function RootLayout() {
           incrementQuantity,
           decrementQuantity,
           removeFromCart,
-          recentShops
+          recentShops,
+          toggleEditing
         }} />
       </div>
     </>

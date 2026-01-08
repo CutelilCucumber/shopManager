@@ -1,21 +1,22 @@
-import { Link, useOutletContext } from 'react-router-dom';
+import { useOutletContext } from 'react-router-dom';
+import styles from '../styles.module.css'
 import NavBar from '../components/NavBar';
 
 export default function Editor() {
-const {worldData, setWorldData, cart, addToCart, incrementQuantity} = useOutletContext();
+const {worldData,
+      setWorldData,
+      catalogCache, 
+      setCatalogCache,
+      cart,
+      addToCart,
+      incrementQuantity,
+      recentShops,
+      toggleEditing} = useOutletContext();
 
   return (
-    <div>
-      <h1>Shop Editor!</h1>
-      <p>Town Selected: </p>
-        <ul>
-          <li>
-            <Link to="/shop">shop page</Link>
-          </li>
-          <li>
-            <Link to="/cart">cart page</Link>
-          </li>
-        </ul>
+    <div className={styles.shopContainer}>
+      <h2>Shop Editor!</h2>
+      <button onClick={toggleEditing}>click to edit</button>
     </div>
   );
 };
