@@ -15,8 +15,7 @@ const {worldData,
 
   return (
     <div className={styles.shopContainer}>
-      <h2>Shop Editor!</h2>
-      <button onClick={toggleEditing}>click to edit</button>
+      <h2>Welcome to the market square</h2>
     </div>
   );
 };

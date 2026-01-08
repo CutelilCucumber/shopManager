@@ -195,7 +195,13 @@ export const defaultTowns = [{
       "simple-melee-weapons",
       "simple-ranged-weapons"
     ],
-    goods: []
+    goods: [
+      "/api/2014/equipment/javelin",
+      "/api/2014/equipment/quarterstaff",
+      "/api/2014/equipment/shortbow",
+      "/api/2014/equipment/maul",
+      "/api/2014/equipment/scimitar"
+    ]
   },
   {
     id: "ee7fea43-b891-41b9-8d75-be280a319267",
@@ -210,8 +216,51 @@ export const defaultTowns = [{
       "heavy-armor",
       "shields"
     ],
-    goods: []
+    goods: [
+      "/api/2014/equipment/studded-leather-armor",
+      "/api/2014/equipment/chain-shirt",
+      "/api/2014/equipment/scale-mail",
+      "/api/2014/equipment/chain-mail",
+      "/api/2014/equipment/shield",
+      "/api/2014/magic-items/adamantine-armor",
+      "/api/2014/magic-items/dwarven-plate"
+
+    ]
   },]
+},
+{
+    id: crypto.randomUUID(),
+    name: 'Outerwild',
+    size: 0,
+    magicRarity: 0,
+    PcLevel: 0,
+    shopList: [{
+      id: crypto.randomUUID(),
+      name: "Wondrous Whitehorn",
+      shopKeeper: "Bombass Bolabathar",
+      type: [
+        "Wondrous Items"
+      ],
+      catalogueIndex: [
+        "light-armor",
+        "medium-armor",
+        "heavy-armor",
+        "shields"
+      ],
+      goods: [
+        "/api/2014/magic-items/amulet-of-health",
+        "/api/2014/magic-items/apparatus-of-the-crab",
+        "/api/2014/magic-items/brooch-of-shielding",
+        "/api/2014/magic-items/dimensional-shackles",
+        "/api/2014/magic-items/figurine-of-wondrous-power",
+        "/api/2014/magic-items/necklace-of-prayer-beads",
+        "/api/2014/magic-items/wings-of-flying",
+        "/api/2014/magic-items/carpet-of-flying-6x9",
+        "/api/2014/magic-items/elemental-gem-water",
+        "/api/2014/magic-items/ioun-stone-of-absorption",
+        "/api/2014/magic-items/ioun-stone-of-sustenance"
+      ]
+  }]
 },
 {
     id: crypto.randomUUID(),

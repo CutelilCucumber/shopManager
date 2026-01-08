@@ -50,6 +50,7 @@ export default function Shop(){
         <>
           <Parchment>
             <h2>{selectedShop.name}</h2>
+            <h3>{selectedShop.type}</h3>
             <h3>Shopkeeper: {selectedShop.shopKeeper}</h3>
             <Catalog itemList={cached.items} setDisplayItem={setDisplayItem} addToCart={addToCart}/>
           </Parchment>
